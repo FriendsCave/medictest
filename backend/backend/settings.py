@@ -39,7 +39,7 @@ SECRET_KEY = 'django-insecure-@ndp$_na=e0g4^+9)7w(4v*ewrf&sdls#vr)ce=ax$bcipmb+k
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["your-app-name.onrender.com"]
+ALLOWED_HOSTS = ["medictest.vercel.app"]
 
 
 
