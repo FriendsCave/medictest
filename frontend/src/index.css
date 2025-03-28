@@ -73,3 +73,39 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Календарь */
+.react-calendar {
+  background-color: #333 !important;  /* Темный фон для календаря */
+  color: white !important;  /* Белый цвет для всех дат */
+  border-radius: 10px;  /* Скругленные углы */
+  border: none;  /* Убираем обводку */
+  padding: 10px;
+}
+
+/* Стиль для всех дат */
+.react-calendar__tile {
+  color: white !important;  /* Белый цвет для всех дат */
+}
+
+/* Стиль для активной даты */
+.react-calendar__tile--active {
+  background-color: #4CAF50 !important;  /* Более яркий зеленый для активных дат */
+  color: white !important;
+}
+
+/* Стиль для дней с приёмами */
+.highlight {
+  background-color: #ff5733 !important;  /* Яркий оранжевый фон для дней с приёмами */
+  color: white !important;
+}
+
+/* Цвет выходных */
+.react-calendar__month-view__days__day--weekend {
+  color: red !important;  /* Цвет выходных */
+}
+
+/* Выделение текущего дня */
+.react-calendar__tile--now {
+  background-color: #ff9800 !important;  /* Оранжевый для текущего дня */
+  color: white !important;
+}
